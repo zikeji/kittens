@@ -5,7 +5,7 @@
 // @match        *kittensgame.com/web/*
 // @match        *kittensgame.com/beta/*
 // @match        *kittensgame.com/alpha/*
-// @version      0.0.9
+// @version      0.0.10
 // @grant        none
 // @author       You
 // @copyright    2022, Zikeji
@@ -365,6 +365,21 @@
 					amount: 1,
 					guards: [
 						['steel', 300]
+					],
+					ratio: 0.95,
+					log: true
+				},
+				uranium: {
+					resource: 'thorium',
+					amount: 1,
+					ratio: 0.95,
+					log: true
+				},
+				unobtainium: {
+					resource: 'eludium',
+					amount: 1,
+					guards: [
+						['alloy', 2500]
 					],
 					ratio: 0.95,
 					log: true
